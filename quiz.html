@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Fragrancia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Fragrancia</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Guias</a></li>
+        <li><a href="#">Favoritos</a></li>
+        <li><a href="#">Usuário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Quiz Fragrancia</h1>
+    <p>Responda às perguntas abaixo e descubra qual perfume combina mais com você!</p>
+
+    <form action="resultados.html" method="GET">
+      <label for="estilo">Qual é o seu estilo?</label><br>
+      <select name="estilo" id="estilo">
+        <option value="classico">Clássico</option>
+        <option value="moderno">Moderno</option>
+        <option value="ousado">Ousado</option>
+      </select><br><br>
+
+
+      <button type="submit" class="cta-button">Ver resultados</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
